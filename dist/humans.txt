@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Valentin -- Developer -- @krizzlimusic
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    React.js, Alt.js, Bootstrap
+    npm: classnames, color, file-saver, floatthead, immutable, lodash, radium, transit-immutable-js, transit-js
+    

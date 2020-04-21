@@ -1,0 +1,10 @@
+,
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.min.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": "./shims.js"

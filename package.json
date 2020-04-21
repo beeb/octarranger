@@ -1,0 +1,51 @@
+{
+  "name": "octarranger",
+  "version": "0.4.4",
+  "description": "OctArranger is an unofficial, decently sized graphical interface that allows creation and edition of arrangements for the Elektron Octatrack.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentin Bersier",
+  "license": "ISC",
+  "dependencies": {
+    "alt": "^0.18.6",
+    "alt-utils": "^1.0.0",
+    "bootstrap": "^4.0.0-alpha.4",
+    "classnames": "^2.2.5",
+    "color": "^0.11.3",
+    "file-saver": "^1.3.3",
+    "floatthead": "^1.4.4",
+    "immutable": "^3.8.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.4",
+    "radium": "^0.18.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "tether": "^1.3.7",
+    "transit-immutable-js": "^0.6.0",
+    "transit-js": "^0.8.846"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "browserify-shim": "^3.8.12",
+    "envify": "^3.4.1",
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.4.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-google-closure-tools-compiler": "^0.1.7",
+    "grunt-replace": "^1.0.1",
+    "grunt-string-replace": "^1.3.1"
+  }
+}

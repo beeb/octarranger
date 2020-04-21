@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>OctArranger &middot; A decently sized editor for Elektron Octatrack arrangements</title>
+  <meta property="og:title" content="OctArranger &middot; A decently sized editor for Elektron Octatrack arrangements">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://beeb.li/octa/">
+  <meta property="og:image" content="https://beeb.li/octa/img/opengraph.png">
+  <meta property="og:image:width" content="1256">
+  <meta property="og:image:height" content="740">
+  <meta property="og:description" content="OctArranger is an unofficial, decently sized graphical interface that allows creation and edition of arrangements for the Elektron Octatrack.">
+
+  <meta name="description" content="OctArranger is an unofficial, decently sized graphical interface that allows creation and edition of arrangements for the Elektron Octatrack.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="OctArranger">
+  <meta name="application-name" content="OctArranger">
+  <meta name="msapplication-config" content="browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css?v=****version****">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css?v=**version**">
+
+  <script src="js/vendor/modernizr-custom.min.js"></script>
+</head>
+<body>
+  <div class="modal fade" id="file-api-warning" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Hello there</h4>
+        </div>
+        <div class="modal-body">
+          <p>OctArranger requires your browser to support the javascript <a href="https://www.w3.org/TR/FileAPI/" target="_blank">File API</a>. This browser doesn't, and is thus not suited for this web-app. Please consider using <a href="http://browsehappy.com/" target="_blank">Chrome or Firefox</a> and make sure you updated to the latest available version.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="local-storage-warning">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title">Hello there</h4>
+        </div>
+        <div class="modal-body">
+          <p>OctArranger would like it if your browser supported <a href="https://www.w3.org/TR/webstorage/#the-localstorage-attribute" target="_blank">local storage</a>. This browser doesn't or has it disabled, and is thus not particularly suited for this web-app. Please consider using <a href="http://browsehappy.com/" target="_blank">another browser</a> or enable local storage for a better experience. If you ignore this warning, auto-save won't work.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app"></div>
+
+  <!--[if IE]>
+  <div class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+  <![endif]-->
+
+  <script src="js/app.js?v=***version***"></script>
+  <script>
+    /* globals ga, window, document */
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments);});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r);}(window,document,'script','ga'));
+    ga('create','UA-28120368-5','auto');ga('send','pageview');
+  </script>
+  <!--[if dev]><![endif]-->
+</body>
+</html>
